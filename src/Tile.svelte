@@ -15,7 +15,7 @@
 >
   {#if tile.flagged}
     <div class="flag">
-      <img src="assets/flag.svg" alt="flag icon" />
+      <img src="./assets/flag.svg" alt="flag icon" />
     </div>
   {:else if tile.revealed}
     {#if tile.bomb}
